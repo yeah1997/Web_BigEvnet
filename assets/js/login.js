@@ -70,7 +70,8 @@ $(function () {
                 // login success reserve in RocalStorage
                 localStorage.setItem('token', res.token)
                 // Href to index.html
-                location.href = '/index.thml'
+                // location.href = '/index.thml'
+                console.log(res.token)
             }
         })
 
