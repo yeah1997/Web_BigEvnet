@@ -1,7 +1,5 @@
 $(function () {
 
-
-
     // Get User Infomation
     getUserInfo()
 
@@ -33,6 +31,7 @@ function getUserInfo() {
 
             if (res.status !== 0) return layui.layer.msg('获取用户信息失败!')
 
+            console.log(res.data)
             // render Avatar
             renderAvatar(res.data)
         }
