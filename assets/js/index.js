@@ -49,7 +49,7 @@ function renderAvatar(user) {
     } else {
         $('.layui-nav-img').hide()
         let firstName = name[0].toUpperCase()
-        $('.text-avatar').html(firstName)
+        $('.text-avatar').html(firstName).show()
     }
 
 }
